@@ -56,8 +56,8 @@
     grid-row-end: 7;
     grid-column-start: 1;
     grid-column-end: 7;
-    background-image: url(/tickethack-part-front/frontend/images/background.jpg);
-    background-size: cover;
+    background-image: url(/frontend/images/background.jpg);
+    background-size: cover; 
     height: 150lvh;
     width: 100%;
     background-position: center center, center center;
@@ -89,5 +89,27 @@
     display: block;
     background-color: white;
     padding: 1em;
+  }
+
+  #btn-block {
+  display: block;
+  width: 80%;
+  border: none;
+  background-color: #04AA6D;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  }
+
+  #btn-block:hover {
+  display: block;
+  width: 80%;
+  border: none;
+  background-color: #4ee8af;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
   }
   /*END CONTAINER*/
