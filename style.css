@@ -1,3 +1,9 @@
+/* BODY */
+body {
+  margin:0;
+}
+/* END BODY */
+
 /*CONTAINER */
 .container {
   display: grid;
@@ -46,18 +52,18 @@
     background-color: #04AA6D;
     color: white;
   }
-
   /*END TOP NAV*/
 
   /*CONTENT*/
   .content {
+    display: flex;
     grid-row-start: 2;
     grid-row-end: 9;
     grid-column-start: 1;
     grid-column-end: 13;
     background-image: url(/frontend/images/background.jpg);
     background-size: cover; 
-    height: 150lvh;
+    min-height: 100vh;
     width: 100%;
     background-position: center center, center center;
     background-repeat: no-repeat;    
@@ -65,30 +71,36 @@
 
   .content-cart {
     display: flex;
-    align-items: center;
     grid-row-start: 2;
     grid-row-end: 9;
     grid-column-start: 1;
     grid-column-end: 13;
     background-color: beige;
     background-size: cover;
-    height: 150lvh;
+    height: 100vh;
     width: 100%;
     background-position: center center, center center;
     background-repeat: no-repeat;
 }
+/* END CONTENT */
+
+
+
+
+
 
   .child {
+    display: flex;
     width: 590px;
-    height: 590px;
     position: absolute;
-    top: 25%;
+    top: 10%;
     left: 25%;
-    margin: -25px 0 0 -25px;
-    margin: 0 auto;
+    margin: 0px auto;
     max-width: 800px;
     height: 200px;
     padding: 20px;
+    flex-direction: column;
+    align-items: center;
   }
 
   #title {
@@ -106,7 +118,7 @@
   .row {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: stretch;
     margin: 0 auto;
     max-width: 800px;
     height: 200px;
@@ -121,24 +133,34 @@
 }
 
   #search-box{
-    display: block;
-    width: 200px;
-		height: 100px;
+    display: flex;
+    width: 40%;
+    /* height: 100vh; */
     background-color: white;
     padding: 1em;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+  }
+
+  #image-book {
+    width: 100%;
   }
 
   #book-box{
-    display: block;
-    width: 200px;
-		height: 100px;
+    display: flex;
+    width: 40%;
+    /* height: 100vh; */
     background-color: white;
     padding: 1em;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
   }
 
   #btn-block {
   display: block;
-  width: 80%;
+  width: 100%;
   border: none;
   background-color: #04AA6D;
   padding: 14px 28px;
@@ -149,7 +171,7 @@
 
   #btn-block:hover {
   display: block;
-  width: 80%;
+  width: 100%;
   border: none;
   background-color: #4ee8af;
   padding: 14px 28px;
