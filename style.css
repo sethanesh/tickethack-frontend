@@ -90,7 +90,7 @@
     margin: 0;
   }
 
-  .box {
+  .row {
     display: flex;
     justify-content: space-between;
     align-items: center;
