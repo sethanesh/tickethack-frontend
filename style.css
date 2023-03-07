@@ -60,9 +60,23 @@
     height: 150lvh;
     width: 100%;
     background-position: center center, center center;
-    background-repeat: no-repeat;
-    
+    background-repeat: no-repeat;    
   }
+
+  .content-cart {
+    display: flex;
+    align-items: center;
+    grid-row-start: 2;
+    grid-row-end: 9;
+    grid-column-start: 1;
+    grid-column-end: 13;
+    background-color: beige;
+    background-size: cover;
+    height: 150lvh;
+    width: 100%;
+    background-position: center center, center center;
+    background-repeat: no-repeat;
+}
 
   .child {
     width: 590px;
@@ -98,6 +112,13 @@
     height: 200px;
     padding: 20px;
   }
+
+  .row-cart {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: white;
+}
 
   #search-box{
     display: block;
