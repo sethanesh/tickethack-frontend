@@ -166,24 +166,14 @@ body {
     display: block;
     width: 100%;
     border: none;
-    background-color: #04AA6D;
+    background-color: #148f1a;
     padding: 14px 28px;
+    color: white;
     font-size: 16px;
     cursor: pointer;
     text-align: center;
     margin-top: 6rem;
     border-radius: 10px;
-  }
-
-  #btn-block:hover {
-  display: block;
-  width: 100%;
-  border: none;
-  background-color: #4ee8af;
-  padding: 14px 28px;
-  font-size: 16px;
-  cursor: pointer;
-  text-align: center;
   }
 
   #image-book {
@@ -204,16 +194,28 @@ body {
   }
 
   .searched-trips {
-    background-color:#c1c1c1;
+    background-color: #c1c1c1;
+    margin-bottom: 1rem;
+    border-radius: 3px;
+    padding: 5px;
   }
 
   .s-trip-infos {
-    color:#000000;
+    display: flex;
+    color: #000000;
+    font-size: 13px;
+    align-items: baseline;
+    flex-direction: row;
   }
 
   .book-btn {
-    background-color:#148f1a;
-    color:white;
+    background-color: #148f1a;
+    color: white;
+    border-radius: 5px;
+    margin-left: 5px;
+    font-size: 12px;
+    padding: 8px;
+    border: none;
   }
 
   
