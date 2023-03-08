@@ -246,6 +246,7 @@ body {
     font-size: 12px;
     padding: 8px;
     border: none;
+    cursor: pointer;
   }
 /* END HOME */
 
