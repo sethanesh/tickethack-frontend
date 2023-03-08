@@ -158,8 +158,31 @@ body {
     align-items: stretch;
   }
 
-  #date {
+  #departure {
+    border-radius: 5px;
+    background-color: #f4f0f0;
+    border: none;
+    height: 2rem
+  }
 
+  #line-grey {
+    border-bottom: groove;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  #arrival {
+    border-radius: 5px;
+    background-color: #f4f0f0;
+    border: none;
+    height: 2rem
+  }
+
+  #date {
+    border-radius: 5px;
+    background-color: #f4f0f0;
+    border: none;
+    height: 2rem;
   }
 
   #btn-block {
@@ -172,7 +195,7 @@ body {
     font-size: 16px;
     cursor: pointer;
     text-align: center;
-    margin-top: 6rem;
+    margin-top: 5rem;
     border-radius: 10px;
   }
 
