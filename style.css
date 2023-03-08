@@ -245,6 +245,7 @@ body {
   align-items: center;
   border-radius: 10px 10px 0px 0px;
   height: 15rem;
+  overflow-y: scroll;
 }
 
 #booking-choices {
@@ -298,12 +299,13 @@ body {
 
 #btn-purchase {
   float: right;
-  background-color: #148f1a;
+  background-color: rgb(20, 143, 26);
   color: white;
   border: none;
   border-radius: 10px;
   padding-left: 20px;
   padding-right: 20px;
+  cursor: pointer;
 }
 
 /* END CART PAGE */
