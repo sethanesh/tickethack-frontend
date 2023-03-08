@@ -215,10 +215,14 @@ body {
     padding: 1em;
     margin-left: 2rem;
     flex-direction: column;
-    align-items: stretch;
+    align-items: center;
     border-radius: 10px;
     overflow-y: scroll;
+    align-content: center;
+    justify-content: center;
   }
+
+  #image-and-text
 
   .searched-trips {
     background-color: #f4f0f0;
@@ -266,7 +270,7 @@ body {
   overflow-y: scroll;
 }
 
-#booking-choices {
+.booking-choices {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -351,7 +355,7 @@ body {
   overflow-y: scroll;
 }
 
-#booking-payed {
+.booking-payed {
   display: flex;
   flex-direction: row;
   align-items: center;
