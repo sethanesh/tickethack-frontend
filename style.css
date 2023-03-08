@@ -260,7 +260,7 @@ body {
     width: 40rem;
 }
 
-#choice {
+.choice {
   display: flex;
   justify-content: space-between;
   align-items: center;
